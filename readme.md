@@ -1,3 +1,5 @@
+<!--This would be a great lab for fist-to-five differentiation...also ask who has an API key already so they can skip step 1 if needed.-->
+
 # Node CLI Weather
 
 Today we will use Node.js to make a request to **Weather Underground**.  Here are the steps to get set up.  If you get stuck, remember to **Read**, **Search**, then **Ask**.
