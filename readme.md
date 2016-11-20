@@ -2,8 +2,8 @@
 
 Today we will use Node.js to make a request to **Weather Underground**.  Here are the steps to get set up.  If you get stuck, remember to **Read**, **Search**, then **Ask**.
 
-1. Get an API key from [Weather Underground](https://www.wunderground.com/weather/api/)
-2. Set up your initial npm environment
+1. Get an API key from [Weather Underground](https://www.wunderground.com/weather/api/).
+2. Set up your initial npm environment.
 3. Create `index.js`.
 4. Place your API key in a separate `env.js` file.
 
@@ -24,7 +24,7 @@ Do the following *inside your WDI work folder*.
 1. **Require** the `request` library so you can reach the weatherUnderground service.
 2. Look at the [Weather Underground API Documentation](https://www.wunderground.com/weather/api/d/docs) to find a way to get JSON weather data.
 3. Make a request to Weather Underground to find Denver weather data.
-4. Print this data to the console in the form "The weather in Denver is <cloudy, etc.>" or similar.
+4. Print this data to the console in the form "The weather in Denver is `<cloudy>`" or similar.
 5. Test this to verify it works!
 
 ### env.js
