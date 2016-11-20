@@ -36,3 +36,5 @@ Do the following *inside your WDI work folder*.
 3. Require it in `index.js`.
 4. .gitignore the env.js file.
 5. Test that your weather request still works!
+
+<!--Make sure you model a solution, at least for the env.js before leaving. -->
