@@ -24,7 +24,7 @@ request(url, function(err,res,body){
     //Get observation
     var observation = JSON.parse(body).current_observation
     
-    /Print it out
+    //Print it out
     console.log("The weather in", observation.display_location.full, "is", observation.weather)
   })
 })
