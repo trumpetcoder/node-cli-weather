@@ -22,5 +22,5 @@ request(apiUrl, function (error, response, body) {
   //Inside that callback
 
   //Print out the weather result
-  console.log('Weather:', body); // Print the HTML for the Google homepage. 
+  console.log('The weather in Denver is ', JSON.parse(body).current_observation.weather);
 });
