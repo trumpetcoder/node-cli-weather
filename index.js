@@ -10,7 +10,7 @@ var city = "Denver";
 //Google `npm request` and you can find out!
 
 
-// Set the API URL we are hitting, with our API Key and zipcode
+// Set the API URL we are hitting, with our API Key, state, and city
 
 
 //Send the request
