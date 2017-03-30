@@ -1,5 +1,7 @@
 <!--This would be a great lab for fist-to-five differentiation...also ask who has an API key already so they can skip step 1 if needed.-->
 
+<!--It is CRITICAL that the instructor make a clear delineation between AJAX and Node requests.  Devs can NOT use their work from previous ajax lessons here.  We MUST point out that while this is analogous to their work yesterday, the main difference is that we are now making these requests from the BACK end, not the FRONT end.  Use pictures, ask devs to repeat this in their own words.  It cannot be overstated how confusing this can be without the proper framing. -->
+
 # Node CLI Weather
 
 Today we will use Node.js to make a request to **Weather Underground**.  Here are the steps to get set up.  If you get stuck, remember to **Read**, **Search**, then **Ask**.
