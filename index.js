@@ -1,30 +1,26 @@
-//Optional: take in zipcode as argument instead of hardcoding
-var zipcode = process.argv.slice(2)[0];
+//Bonus: take in state and city as arguments instead of hardcoding
+var state = "CO";
+var city = "Denver";
 
 //Require apiKey
-var env = require("./env.js");
+
+var apiKey = require('./env.js');
 
 //Require the request library
-var request = require("request");
+//What is the `request` library you ask?
+//Google `npm request` and you can find out!
 
-//The API URL we are hitting, with our API Key
-var apiUrl ="http://api.wunderground.com/api/"+env.wuApiKey;
+var request = require('request');
 
-//The zipcode we are searching for weather for
-var url = apiUrl + "/geolookup/q/"+zipcode+".json";
+// Set the API URL we are hitting, with our API Key and zipcode
+
+var apiUrl = "http://api.wunderground.com/api/" + apiKey + "/conditions/q/" + state + "/" + city + ".json";
 
 //The actual request sending
-request(url, function(err,res,body){
-  //Get our location from a zip code lookup
-  var location = JSON.parse(body).location.requesturl;
-  
-  //Get our conditions from that location
-  var url = apiUrl + "/conditions/q/"+location+".json";
-  request(url, function(err,res,body){
-    //Get observation
-    var observation = JSON.parse(body).current_observation
-    
-    //Print it out
-    console.log("The weather in", observation.display_location.full, "is", observation.weather)
-  })
-})
+
+request(apiUrl, function (error, response, body) {
+  //Inside that callback
+
+  //Print out the weather result
+  console.log('Weather:', body); // Print the HTML for the Google homepage. 
+});
