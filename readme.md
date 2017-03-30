@@ -4,6 +4,8 @@
 
 # Node CLI Weather
 
+> Note: This will be a pair programming activity.  After the previous lesson, how comfortable are you with completing the steps below?  After a fist-to-five, find a similar number to pair up with.  Choose one computer to work on, and a driver to start coding.
+
 Today we will use Node.js to make a request to **Weather Underground**.  Here are the steps to get set up.  If you get stuck, remember to **Read**, **Search**, then **Ask**.
 
 1. Get an API key from [Weather Underground](https://www.wunderground.com/weather/api/).
