@@ -27,7 +27,7 @@ Do the following *inside your WDI work folder*.
 
 ### index.js
 
-1. **Require** the `request` library so you can reach the weatherUnderground service.
+1. **Require** the `request` [library](https://www.npmjs.com/package/request) so you can reach the weatherUnderground service.
 2. Look at the [Weather Underground API Documentation](https://www.wunderground.com/weather/api/d/docs) to find a way to get JSON weather data.
 3. Make a request to Weather Underground to find Denver weather data.
 4. Print this data to the console in the form "The weather in Denver is `<cloudy>`" or similar.
