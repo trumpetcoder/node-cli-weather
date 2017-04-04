@@ -1,10 +1,15 @@
 //Bonus: take in state and city as arguments instead of hardcoding
+
+// console.log(process.argv);
+// var state = process.argv[2];
+// var city = process.argv[3];
+
 var state = "CO";
 var city = "Denver";
 
 //Require apiKey
 
-var apiKey = require('./env.js');
+var apiKey = require('./env.js').keyThing;
 
 //Require the request library
 //What is the `request` library you ask?
