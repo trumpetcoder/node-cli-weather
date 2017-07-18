@@ -15,7 +15,18 @@ Today we will use Node.js to make a request to **Weather Underground**.  Here ar
 
 ### Getting an API key
 
-Go to [Weather Underground](https://www.wunderground.com/weather/api/).  You will be prompted to sign up.  Sign up for the free plan.  Copy the API key you are given, but don't share it.
+>If you already have an API key from the last execise, you can skip this step.
+
+1.Go to [Weather Underground](https://www.wunderground.com/weather/api/).  
+2. Sign up for an account by clicking the "Join" link at the top right and following the steps.
+3. Wait a few seconds, then check your email for a Verification email of Weather Underground. You may need to check your spam or other folders.
+4. Click the "Validate Your Email" button.
+5. Return to [Weather Underground](https://www.wunderground.com/)
+6. Click the "More" dropdown and select "Weather API for Developers" near the bottom of the dropdown.
+7. Click the "Pricing" tab to "purchase" a free key and follow the steps.
+You may need to refresh the page if it claims you have not validated your email yet.
+8. Your API key will be displayed on the page.
+
 
 ### Setting up a node environment
 
@@ -34,11 +45,19 @@ Do the following *inside your WDI work folder*.
 5. Test this to verify it works!
 
 ### env.js
+An `env.js` file is a great way to keep your API secret. We'll add our key to a seperate file, then list that file in our `.gitignore`, so that it's not pushed up to our remote repo. 
 
-1. Save your API key in an object.
-2. Export that object.
+1. In your `env.js` file, turn your api key into a varible.
+2. Export that variable.
+<details><summary>What would that file look like?</summary>
+```js
+'use strict'
+const apikey = "12345678";
+module.exports = apikey;
+```
+</details>
 3. Require it in `index.js`.
-4. .gitignore the env.js file.
+4. [.gitignore](https://help.github.com/articles/ignoring-files/) the env.js file.
 5. Test that your weather request still works!
 
 <!--Make sure you model a solution, at least for the env.js before leaving. -->

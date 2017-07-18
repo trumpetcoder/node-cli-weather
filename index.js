@@ -15,7 +15,7 @@ var request = require('request');
 // Set the API URL we are hitting, with our API Key and zipcode
 
 var apiUrl = "http://api.wunderground.com/api/" + apiKey + "/conditions/q/" + state + "/" + city + ".json";
-
+console.log(apiUrl)
 //The actual request sending
 
 request(apiUrl, function (error, response, body) {
