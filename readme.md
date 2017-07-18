@@ -50,9 +50,13 @@ An `env.js` file is a great way to keep your API secret. We'll add our key to a 
 1. In your `env.js` file, turn your api key into a varible.
 2. Export that variable.
 <details><summary>What would that file look like?</summary>
+
 'use strict'
+
 const apikey = "12345678";
+
 module.exports = apikey;
+
 </details>
 3. Require it in `index.js`.
 4. [.gitignore](https://help.github.com/articles/ignoring-files/) the env.js file.
