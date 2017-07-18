@@ -17,7 +17,7 @@ Today we will use Node.js to make a request to **Weather Underground**.  Here ar
 
 >If you already have an API key from the last execise, you can skip this step.
 
-1.Go to [Weather Underground](https://www.wunderground.com/weather/api/).  
+1. Go to [Weather Underground](https://www.wunderground.com/weather/api/).  
 2. Sign up for an account by clicking the "Join" link at the top right and following the steps.
 3. Wait a few seconds, then check your email for a Verification email of Weather Underground. You may need to check your spam or other folders.
 4. Click the "Validate Your Email" button.
