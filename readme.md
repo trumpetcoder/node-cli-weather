@@ -18,7 +18,7 @@ Today we will use Node.js to make a request to **Weather Underground**.  Here ar
 >If you already have an API key from the last execise, you can skip this step.
 
 1. Go to [Weather Underground](https://www.wunderground.com/weather/api/).  
-2. Sign up for an account by clicking the "Join" link at the top right and following the steps.
+2. Sign up for an account by clicking the "Sign In" link at the top right and following the steps to create a new account.
 3. Wait a few seconds, then check your email for a Verification email of Weather Underground. You may need to check your spam or other folders.
 4. Click the "Validate Your Email" button.
 5. Return to [Weather Underground](https://www.wunderground.com/)
@@ -59,7 +59,7 @@ module.exports = apikey;
 
 </details>
 3. Require it in `index.js`.
-4. [.gitignore](https://help.github.com/articles/ignoring-files/) the env.js file.
+4. `.gitignore` the env.js file.
 5. Test that your weather request still works!
 
 <!--Make sure you model a solution, at least for the env.js before leaving. -->
